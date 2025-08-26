@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Shengmin Xue - Personal Website</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f9f9f9;
+      color: #333;
+    }
+    header {
+      background: #2c3e50;
+      padding: 15px 20px;
+      color: white;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 1.5em;
+    }
+
+    header img {
+      width: 20%;          /* responsive percentage */
+      max-width: 200px;    /* upper limit */
+      min-width: 100px;    /* lower limit */
+      height: auto;        /* keep aspect ratio */
+      border-radius: 50%;  /* round avatar */
+      margin-top: 10px;
+      border: 3px solid white;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin-left: 20px;
+      font-weight: bold;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    .container {
+      max-width: 900px;
+      margin: 40px auto;
+      padding: 0 20px;
+    }
+    h2 {
+      color: #2c3e50;
+      margin-top: 40px;
+    }
+    .portfolio {
+      margin-top: 20px;
+    }
+    .project {
+      background: #fff;
+      padding: 15px;
+      margin-bottom: 15px;
+      border-radius: 8px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+    .project a {
+      color: #3498db;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .project a:hover {
+      text-decoration: underline;
+    }
+    footer {
+      margin-top: 60px;
+      padding: 20px;
+      background: #2c3e50;
+      color: white;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <div class="profile">
+      <h1>Shengmin Xue</h1>
+      <!-- Replace profile.jpg with your own image or an online link -->
+      <img src="image.jpg" alt="Mike Xue Photo">
+    </div>
+    <nav>
+      <a href="#about">About Me</a>
+      <a href="#portfolio">Portfolio</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <!-- Main Content -->
+  <div class="container">
+    <section id="about">
+      <h2>About Me</h2>
+      <p>Hello 👋 I’m Shengmin Xue, passionate about mathematics, coding and technology. 
+         My work includes research on [insert research topic], audio signal processing, and [insert topic].</p>
+    </section>
+
+    <section id="portfolio">
+      <h2>Portfolio</h2>
+      <div class="portfolio">
+        <div class="project">
+          <h3>📊 Project 1</h3>
+          <p>A Python tool to [].</p>
+          <a href="https://github.com/yourusername/LPPL-Analyzer" target="_blank">View Project →</a>
+        </div>
+
+        <div class="project">
+          <h3>🎵 Voice-Analysis</h3>
+          <p>Exploring the difference between bone conduction and air conduction using Fourier and STFT methods.</p>
+          <a href="https://github.com/yourusername/Voice-Analysis" target="_blank">View Project →</a>
+        </div>
+
+        <div class="project">
+          <h3>📅 Project 3</h3>
+          <p>A system to track and display []</p>
+          <a href="https://github.com/yourusername/Earnings-Tracker" target="_blank">View Project →</a>
+        </div>
+
+       
+
+      </div>
+    </section>
+
+    <section id="contact">
+      <h2>Contact</h2>
+      <p>📧 Email: yourname@example.com</p>
+      <p>💼 GitHub: <a href="https://github.com/yourusername" target="_blank">https://github.com/yourusername</a></p>
+    </section>
+  </div>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2025 Shengmin Xue | Powered by GitHub Pages</p>
+  </footer>
+</body>
+</html>
